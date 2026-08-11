@@ -5,7 +5,7 @@ export const shorthands: ColumnDefinitions | undefined = undefined;
 export async function up(pgm: MigrationBuilder): Promise<void> {
     pgm.createTable('users', {
         id: 'id',
-        full_name: { type: 'varchar(255', notNull: true },
+        full_name: { type: 'varchar(255)', notNull: true },
         email: { type: 'varchar(255)', unique: true, notNull: true },
         password_hash: { type: 'varchar(255)', notNull: true },
     });
