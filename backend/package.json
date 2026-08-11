@@ -5,12 +5,21 @@
   "type": "module",
   "main": "server.ts",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch src/server.ts",
+    
+
+    "migrate": "node-pg-migrate",
+    "migrate:up": "node-pg-migrate up",
+    "migrate:down": "node-pg-migrate down"
   },
   "keywords": [],
   "author": "Aditya",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^26.2.0"
+    "@types/node": "^26.2.0",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "node-pg-migrate": "^9.0.0"
   }
 }
