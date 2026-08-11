@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "First Backend App without Copy Pasting",
+  "type": "module",
+  "main": "server.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "Aditya",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^26.2.0"
+  }
+}
