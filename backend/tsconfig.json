@@ -39,6 +39,11 @@
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
+
+    // to import files ending with .ts , Both needs to be enabled
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true,
+
     //"moduleDetection": "force",
     "skipLibCheck": true,
   },
